@@ -9,6 +9,7 @@ import 'package:dw9_delivery_app/app/pages/home/widgets/shopping_bag_widget.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../models/product_model.dart';
 
 class HomePage extends StatefulWidget {
